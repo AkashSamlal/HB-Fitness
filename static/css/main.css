@@ -1,0 +1,101 @@
+body {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    color: rgb(121, 121, 121);
+  }
+
+body.all {
+    background-color: #e6e4e0;    
+
+}
+  
+  header {
+    background-color: #08185f;
+    height: 50px;
+    width: 100%;
+    opacity: .9;
+  }
+  
+  header h1.logo {
+    margin: 0;
+    font-size: 1.7em;
+    color: #fff;
+    text-transform: uppercase;
+    text-align: center;
+  }
+  
+  header h1.logo:hover {
+    color: #fff;
+    text-decoration: none;
+  }
+
+  
+  .container {
+    width: 1300;
+    margin: 0 auto;
+  }
+  
+  div.welcome {
+    font-family: "Baloo 2";
+    font-size: 44px;
+    font-style: normal;
+    font-weight: 800;
+    line-height: 69px;
+    letter-spacing: 0em;
+    text-align: center;
+  }
+  div.home {
+    padding: 10px 0 30px 0;
+    margin-left: 500px;
+    background-color: #e6e4e0;    
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+  }
+
+  div.vid {
+    float:left;
+  }
+
+  span.err {
+    float: right;
+  }
+ 
+  div.button {
+    margin-left: 100px;
+    -webkit-border-radius: 6px;
+       -moz-border-radius: 6px;
+            border-radius: 6px;
+  }
+  h2 {
+    font-size: 3em;
+    margin-top: 40px;
+    text-align: center;
+    letter-spacing: -2px;
+  }
+  
+  h3 {
+    font-size: 1.7em;
+    font-weight: 100;
+    margin-top: 30px;
+    text-align: center;
+    letter-spacing: -1px;
+    color: #999;
+  }
+  
+  .app {
+    float: right;
+    margin-top: 8px;
+  }
+  
+  .app li {
+    display: inline;
+  }
+  
+  .app li + li {
+    margin-left: 35px;
+  }
+  
+  .app li a {
+    color: #444;
+    text-decoration: none;
+  }
