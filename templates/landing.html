@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html> 
+    
+    <body style="background-color: #4F7BE8;">
+        {% extends "layout2.html" %}
+        {% block content %}
+
+        <div class="welcome" style="color: white;">
+         <h1 style="font-size: 65px;
+         text-align: center;
+         font-weight: 800;
+         font-family: baloo;">Welcome to HB Fitness!</h1>   
+        </div>
+        <div class = "welcomePic">
+            <image 
+                style="position: absolute;
+                    width: 391px;
+                    height: 385px;
+                    left: -8px;
+                    top: 203px;
+                    padding-left: 750px;" 
+                    src="{{url_for('static', filename = 'images/welcomeIcon.jpg')}}">
+        </image>
+        </div>
+        <div class="getStarted">
+            <a  href="/selection" style="position:absolute;
+            margin-left: 900px;
+            margin-top: 500px; color: white;">Get Started</a>
+        </div>
+        
+        {% endblock %}
+
+    </body>
+</html>
+

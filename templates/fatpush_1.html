@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <body class="all">
+        {% extends "layout.html" %}
+        {% block content %}
+    <div class="home">
+            <h1> Exercise: {{workout}} - 3 sets x 10 reps</h1>
+    </div>
+    <div class="vid" style="margin-left: 90px; position: absolute;">
+        <img src="{{ url_for('pushWorkout_1_fat')}}">
+    </div>
+    <div class="err" style="margin-left: 950px; position: absolute;">
+        <h1>Form Correction:</h1>
+    </div> 
+    <a  href="/fatPush_1" style="position:absolute;
+            margin-left: 1000px;
+            margin-top: 600px; color: black;">Repeat Set?</a>
+
+    <a  href="/finish" style="position:absolute;
+            margin-left: 1350px;
+            margin-top: 600px; color: black;">Finish Session</a>
+    {% endblock %}
+    </body>
+</html>

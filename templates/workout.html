@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+    <body class="all">
+        {% extends "layout.html" %}
+        {% block content %}
+    <div class="home">
+            <h1> Exercise: {{workout}}</h1>
+    </div>
+    <div class="vid" style="margin-left: 90px; position: absolute;">
+        <img src="{{ url_for('video')}}">
+    </div>
+    <div class="err" style="margin-left: 950px; position: absolute;">
+        <h1>Form Correction:</h1>
+    </div> 
+    {% endblock %}
+    </body>
+</html>

@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html> 
+    <style>
+        span.a {
+            display: inline-block;
+            width: 10;
+            height: 100;
+            padding: 5px;
+            margin-left: 40px;
+            border: 1px solid blue;
+        }
+        .push {
+            margin-left: 50px;
+            font-size: 25px;
+            font-weight: bold;
+            position: inherit;
+            margin-top: 10px;
+            margin-bottom: 15px;
+        }
+        .pull {
+            margin-left: 50px;
+            font-size: 25px;
+            font-weight: bold;
+            position: inherit;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+        .leg {
+            margin-left: 50px;
+            font-size: 25px;
+            font-weight: bold;
+            position: inherit;
+            margin-top: 35px;
+            margin-bottom: 15px;
+        }
+    </style>
+    
+    <body style="background-color: #4F7BE8;">
+        {% extends "layout2.html" %}
+        {% block content %}
+
+        <div class="welcome" style="color: white;">
+            <h1 style="font-size: 65px;
+            text-align: center;
+            font-weight: 800;
+            font-family: baloo;">Fat Loss Journey</h1>   
+           </div>
+
+        <div style="color: white;">
+            <h3 style="font-size: 65px;
+            margin-top: 30px;
+            text-align: center;
+            font-weight: 800;
+            font-size: 40px;
+            font-family: baloo;">Workout Plan:</h3>    
+               
+            <div style="margin-left: 750px;">
+            <div class="push"> Push Day: </div>
+              <a  href="/fatPush_0" style="position:absolute;
+                 margin-left: 150px;
+                 margin-top: 175px;
+                 color: white;">Push Day Workout!</a>
+           
+            <span class="a">
+                Chest Press:
+                <ul> Set 1: 10 reps</ul>
+                <ul> Set 2: 10 reps</ul>
+                <ul> Set 3: 10 reps</ul>
+            </span>
+            <span class="a">
+                Shoulder Press:
+                <ul> Set 1: 10 reps</ul>
+                <ul> Set 2: 10 reps</ul>
+                <ul> Set 3: 10 reps</ul>
+            </span>
+        </div>   
+
+        <div style="margin-left: 700px; margin-top: 100px;">
+            <div class="pull"> Pull Day: </div>
+            <a  href="/fatPull_0" style="position:absolute;
+           
+           margin-left: 200px;
+                 margin-top: 175px;
+             color: white;">Pull Day Workout!</a>
+            <span class="a">
+                Bent Over Rows:
+                <ul> Set 1: 10 reps</ul>
+                <ul> Set 2: 10 reps</ul>
+                <ul> Set 3: 10 reps</ul>
+            </span>
+            <span class="a">
+                Bicep Curls:
+                <ul> Set 1: 10 reps</ul>
+                <ul> Set 2: 10 reps</ul>
+                <ul> Set 3: 10 reps</ul>
+            </span>
+            <span class="a">
+                Deadlifts:
+                <ul> Set 1: 10 reps</ul>
+                <ul> Set 2: 10 reps</ul>
+                <ul> Set 3: 10 reps</ul>
+            </span>
+        </div>
+
+        <div style="margin-left: 850px; margin-top: 100px;">
+            <div class="leg"> Leg Day: </div>
+            <a  href="/fatLeg_1" style="position:absolute;
+             margin-left: 50px;
+            margin-top: 175px;
+             color: white;">Leg Day Workout!</a>
+            
+            <span class="a">
+                Goblet Squats:
+                <ul> Set 1: 10 reps</ul>
+                <ul> Set 2: 10 reps</ul>
+                <ul> Set 3: 10 reps</ul>
+            </span>
+            
+        </div>
+
+        <div style="margin-bottom: 120px;"></div>
+
+ 
+        
+        {% endblock %}
+
+    </body>
+</html>
+
